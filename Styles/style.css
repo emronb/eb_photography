@@ -10,7 +10,6 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0px 20px;
-
 }
 
 .title {
@@ -41,7 +40,7 @@ h2 {
 }
 
 .image-grid img {
-  width: 30%;
+  width: 33.33%;
 }
 
 /* Media query for screens smaller than 800px */
@@ -49,7 +48,24 @@ h2 {
   .image-grid img {
     width: 100% !important;
   }
+
+  .desktop-only{
+    display: none;
+  }
 }
+
+@media only screen and (min-width: 800px) {
+  .title {
+    width:100% !important;
+    text-align: center;
+  }
+  
+  .icons {
+    width: 2% !important;
+    text-align: right;
+  }
+}
+  
 
 .image:hover{
   color: rgba(255, 255, 255, 1);
@@ -98,4 +114,8 @@ a:visited{
 
 .fas.fa-envelope, .insta-link{
   margin-right: 10px;
+}
+
+.desktop-only{
+  
 }
