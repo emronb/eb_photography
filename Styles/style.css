@@ -1,0 +1,99 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #2C3333;
+  color: #A5C9CA;
+  height: 120px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body {
+  margin: 0 !important;
+  background-color: #E7F6F2;
+}
+
+main {
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #395B64 !important;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-grid img {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+/* Media query for screens smaller than 800px */
+@media only screen and (max-width: 800px) {
+  .image-grid img {
+    width: 100% !important;
+  }
+}
+
+.image {
+  border-radius: 10px;
+}
+
+.image:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(57, 91, 100, 1);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  text-align: left;
+}
+
+.title {
+  width: 33%;
+  text-align: center;
+}
+
+.icons {
+  width: 33%;
+  text-align: right;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.insta-link:hover, a{
+  cursor: pointer;
+  color: aliceblue;
+}
+
+a{
+  text-decoration: none;
+  color: #A5C9CA !important;
+}
+
+a:visited{
+  color: #A5C9CA !important;
+}
