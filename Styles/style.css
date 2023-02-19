@@ -25,7 +25,6 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 0px 20px;
 }
 
 h2 {
@@ -43,7 +42,6 @@ h2 {
 
 .image-grid img {
   width: 30%;
-  margin-bottom: 20px;
 }
 
 /* Media query for screens smaller than 800px */
@@ -53,35 +51,31 @@ h2 {
   }
 }
 
-.image {
-  border-radius: 10px;
-}
-
 .image:hover{
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px rgba(57, 91, 100, 1);
 }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  width: 33%;
-  text-align: left;
-}
-
 .title {
-  width: 33%;
+  width:90%;
   text-align: center;
 }
 
 .icons {
-  width: 33%;
+  width: 10%;
   text-align: right;
 }
 
 .name{
   font-size: 20px;
   font-weight: bold;
+  background-color:  #2C3333;
+  width: 100%;
+  color: #A5C9CA;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .insta-link:hover, a{
@@ -96,4 +90,12 @@ a{
 
 a:visited{
   color: #A5C9CA !important;
+}
+
+.fas.fa-phone-alt{
+  margin-right: 10px;
+}
+
+.fas.fa-envelope, .insta-link{
+  margin-right: 10px;
 }
