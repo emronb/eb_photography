@@ -50,7 +50,7 @@ h2 {
   }
 
   .desktop-only{
-    display: none;
+    display: none !important;
   }
 }
 
